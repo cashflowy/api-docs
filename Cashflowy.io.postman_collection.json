@@ -1,8 +1,35 @@
 {
 	"info": {
-		"_postman_id": "46f7469e-4a13-46bd-b290-1c8c0f7bdb1a",
+		"_postman_id": "ad09f1f6-de2f-4671-a368-dbd5af6f897f",
 		"name": "Cashflowy.io",
+		"description": "# About cashflowy.io\nCashflowy.io is a financial data pipeline. We help your accounting team reconcile like a pro. \n\nCurrent list of integrations supported -",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
-	"item": []
+	"item": [
+		{
+			"name": "test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://app.cashflowy.io?name=alex",
+					"protocol": "https",
+					"host": [
+						"app",
+						"cashflowy",
+						"io"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "alex",
+							"description": "specify the name of the person. Optional."
+						}
+					]
+				},
+				"description": "## Intro\n\nThis is an intro to documentation."
+			},
+			"response": []
+		}
+	]
 }
